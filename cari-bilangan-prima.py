@@ -11,3 +11,14 @@ def bilPrima(bilBulat):
             
 bilBulat = int(input('Masukkan bilangan bulat: '))
 bilPrima(bilBulat)
+
+# Setelah mode Khaby Lame. 
+
+def bilPrima(bilBulat):
+    for i in range(2, bilBulat):
+        if bilBulat%i == 0:
+            return ('Bukan Bilangan Prima')
+    return ('Bilangan Prima')
+            
+bilBulat = int(input('Masukkan Bilangan Bulat : '))
+print(bilPrima(bilBulat))
