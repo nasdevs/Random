@@ -1,10 +1,11 @@
 '''
 @name : Typing Test
 @version : 0.1.0
+@upgrade to speed typing test : coming soon
 '''
 
 text = str(input('Input text : '))
-text = text.split(' ')
+text = text.split()
 
 score = 0
 
