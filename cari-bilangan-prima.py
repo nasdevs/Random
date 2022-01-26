@@ -18,7 +18,10 @@ def bilPrima(bilBulat):
     for i in range(2, bilBulat):
         if bilBulat%i == 0:
             return ('Bukan Bilangan Prima')
-    return ('Bilangan Prima')
+    if bilBulat == 1:
+        return ('Bukan Bilangan Prima')
+    else: 
+        return ('Bilangan Prima')
             
 bilBulat = int(input('Masukkan Bilangan Bulat : '))
 print(bilPrima(bilBulat))
