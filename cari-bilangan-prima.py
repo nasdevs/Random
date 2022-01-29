@@ -1,3 +1,4 @@
+# slow
 def bilPrima(bilBulat):
     jmlBagi = 0
     for i in range(1, bilBulat+1):
@@ -12,7 +13,7 @@ def bilPrima(bilBulat):
 bilBulat = int(input('Masukkan bilangan bulat: '))
 bilPrima(bilBulat)
 
-# Setelah mode Khaby Lame. 
+# fast
 
 def bilPrima(bilBulat):
     for i in range(2, bilBulat):
